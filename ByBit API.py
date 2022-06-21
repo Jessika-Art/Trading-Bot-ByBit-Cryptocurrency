@@ -38,7 +38,7 @@ client = bybit.bybit(test=False, api_key=KEY, api_secret=SECRET) # getting data 
 session = HTTP("https://api.bybit.com") # Mainnet
 maxposition =  0.2 # volume bet
 stop_percent = 0.004 # 0.01=1% stop loss
-eth_proffit_array = [[0.50,1],[0.90, 1],[1.50, 2],[2, 2],[3, 2],[3.5, 2],[4, 2],[6.5, 2],[9, 0]]# the take profit close. ex: [150,1] if entry price is 3000, it'll close a position at 30150.
+eth_proffit_array = [[0.50,1],[0.90, 1],[1.50, 2],[2, 2],[3, 2],[3.5, 2],[4, 2],[6.5, 2],[9, 0]]
 proffit_array = copy.copy(eth_proffit_array)
 
 
