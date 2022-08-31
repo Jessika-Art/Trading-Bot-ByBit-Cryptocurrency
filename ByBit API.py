@@ -27,9 +27,9 @@ HTTPConnection.default_socket_options = (
 
 ''' K E Y S '''
 # MAINNET
-KEY, SECRET, MAINNET = "7ikvp5UbQIbdK34mej", "iVMc0BrFJLZoBYhuK3xr9Is84VJaSGSY50Nq", 'https://api.bybit.com'
+KEY, SECRET, MAINNET = "", "", 'https://api.bybit.com'
 # TESTNET
-# KEY, SECRET, TESTNET = "ROqv1YA1fI4zvAB1kw", "2q5v9f10cSsxNrfKSPs7mWElLD7j9J4gIrIJ", 'https://api-testnet.bybit.com'
+# KEY, SECRET, TESTNET = "", "", 'https://api-testnet.bybit.com'
 
 ''' M A I N   S E T T I N G S '''
 ENVIRONMENT = MAINNET
